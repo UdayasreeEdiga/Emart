@@ -1,30 +1,32 @@
-<form action="action_page.php" method="post">
-    <div class="imglogin">
-      <img src="assets/logo.png" alt="">
-    </div>
-  
-    <div class="login ">
-      <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required><br><br>
-  
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required><br><br>
-  
-      <!-- <button type="submit">Login</button><br><br>
-      -->
-      <button type="Login" routerLink="/Login/">Login</button>
-
-      <!-- <a class="btn btn-info btn-sm mr-2"
-            routerLink="/login"> -->
-    </div>
-  
-    <div class="login" style="background-color:#f1f1f1">
-      <button type="button" class="cancelbtn">Cancel</button>
-      <br>
-      
-    </div>
-  </form>
-
-
-  <!-- <a class="btn btn-info btn-sm mr-2"
-            routerLink="/details/{{t.taskID}}"> -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Login Form</title>
+    
+</head>
+<body>
+    <div class="wrap">
+        <form class="login-form" action="">
+            <div class="form-header">
+                <h3>Login Form</h3>
+                
+            </div>
+            <!--Email Input-->
+            <div class="form-group">
+                <input type="text" class="form-input" placeholder="email@example.com">
+            </div>
+            <!--Password Input-->
+            <div class="form-group">
+                <input type="password" class="form-input" placeholder="password">
+            </div>
+            <!--Login Button-->
+            <div class="form-group">
+                <button class="form-button" type="submit" routerLink="/Login">Login</button>
+            </div>
+            <div class="form-footer">
+            Don't have an account? <a href="Signup" routerLink="/newuser">Sign Up</a>
+            </div>
+        </form>
+    </div><!--/.wrap-->
+</body>
+</html>

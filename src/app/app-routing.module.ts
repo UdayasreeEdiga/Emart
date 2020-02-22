@@ -9,6 +9,7 @@ import { CategoryComponent } from './category/category.component';
 import { ElectronicsComponent } from './sub-category/electronics/electronics.component';
 import { FashionComponent } from './sub-category/fashion/fashion.component';
 import { GroceriesComponent } from './sub-category/groceries/groceries.component';
+import { BeautyComponent } from './sub-category/beauty/beauty.component';
 
 
 
@@ -26,7 +27,13 @@ import { GroceriesComponent } from './sub-category/groceries/groceries.component
     {path:'Cls',component:FashionComponent},
     {path:'dis',component:ProductComponent},
     {path:'Cll',component:ProductComponent},
-  
+    {path:'Login',component:HomeComponent},
+    {path:'Signup',component:HomeComponent},
+    {path:'can',component:HomeComponent},
+    {path:'groc',component:GroceriesComponent},
+    {path:'beau',component:BeautyComponent},
+    // {path:'spo',component:BeautyComponent},
+    // {path:'access',component:AccessoriesComponent},
   ];
 
 @NgModule({
